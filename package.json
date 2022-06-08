@@ -1,0 +1,27 @@
+{
+  "name": "@themiszel/ts-knife",
+  "version": "1.0.1",
+  "description": "typescript utilities",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Miszel/ts-knife.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Michał Kowalik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miszel/ts-knife/issues"
+  },
+  "homepage": "https://github.com/Miszel/ts-knife#readme",
+  "devDependencies": {
+    "@tsconfig/node16-strictest-esm": "^1.0.0",
+    "typescript": "^4.7.3"
+  }
+}
