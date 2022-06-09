@@ -5,7 +5,9 @@
     "resolveJsonModule": true,
     "outDir": "./dist", 
     "moduleResolution": "Node",
-    "module": "esnext"
+    "module": "esnext",
+    "declaration": true,
+    "declarationMap": true
   },
   "include": [
     "src"

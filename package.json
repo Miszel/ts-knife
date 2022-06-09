@@ -1,12 +1,19 @@
 {
   "name": "@themiszel/ts-knife",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "description": "typescript utilities",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc"
   },
+  "files": [
+    "dist/**/*",
+    "*.d.ts",
+    "*.d.ts.map"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Miszel/ts-knife.git"
