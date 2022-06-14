@@ -1,12 +1,12 @@
 {
   "name": "@themiszel/ts-knife",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "typescript utilities",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --config jestconfig.json",
     "build": "npx tsc"
   },
   "files": [
@@ -29,7 +29,10 @@
   "homepage": "https://github.com/Miszel/ts-knife#readme",
   "devDependencies": {
     "@tsconfig/node16-strictest-esm": "^1.0.0",
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.1",
     "prettier": "^2.6.2",
+    "ts-jest": "^28.0.5",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.7.3"
